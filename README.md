@@ -7,4 +7,9 @@ These programs were created in conjunction with a bachelor thesis at KTH and wer
 
 For more information on the TDC1 time to digial converter please check out their repository: https://github.com/s-fifteen-instruments/Timestamp_TDC1
 
-For questions or comments: esvanb@kth.se
+Please note that this program implements multi-threading and is programmed for a Raspberry Pi 4. In order to compile the C program correctly the following command should be used: 
+
+```
+cc -fPIC -shared -fopenmp -o calc.so timestamp_calculation.c
+
+For further questions or comments: esvanb@kth.se
