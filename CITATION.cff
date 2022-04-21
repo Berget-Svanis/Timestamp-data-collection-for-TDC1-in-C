@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Citation"
+authors:
+  - family-names: Svanberg
+    given-names: Erik
+title: "Timestamp data collection for TDC1 in C"
+version: 1.0.0
+date-released: 2022-04-21
