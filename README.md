@@ -6,3 +6,5 @@ This repository contains two programs: timestamp_calculation.c is used for acqur
 These programs were created in conjunction with a bachelor thesis at KTH and were used together with a lab setup to demonstrate quantum entanglement and the Hong-Ou-Mandel effect. This program (or iterations of it) will in the future be used in a lab setup for courses and thus these programs exist here for further usage and availability.
 
 For more information on the TDC1 time to digial converter please check out their repository: https://github.com/s-fifteen-instruments/Timestamp_TDC1
+
+For questions or comments: esvanb@kth.se
