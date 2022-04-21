@@ -11,5 +11,6 @@ Please note that this program implements multi-threading and is programmed for a
 
 ```
 cc -fPIC -shared -fopenmp -o calc.so timestamp_calculation.c
+```
 
 For further questions or comments: esvanb@kth.se
