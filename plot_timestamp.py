@@ -74,9 +74,9 @@ def main():
         time_pos2 = pos_max[-2]
         time_str2 = convert_to_time_str(time_pos2)
         
-        if histo[time_pos] > old_max or histo[time_pos] < old_max - 200:
-            old_max = histo[time_pos]
-            ax.set_ylim((0,old_max+200))
+        if histo[time_pos] > old_max or histo[time_pos] < old_max - 400:
+            old_max = histo[time_pos] + 200
+            ax.set_ylim((0,old_max))
 
         str1 = "Events channel 2=" + str(cnt2)
         str2 = "Events channel 4=" + str(cnt4)
